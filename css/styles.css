@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #112d4e;
+  margin: 50px auto 0 auto;
+  font-family: 'Tangerine', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  color: #112d4e;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #355c7d;
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border-color: #3282b8;
+  border-style: none;
+  border-top-style: dotted;
+  width: 4%;
+  border-width: 5px;
+  margin: 100px auto;
+}
+a {
+  color: #355c7d;
+}
+.topcontainer {
+  padding-top: 100px;
+  position: relative;
+  background-color: #95e1d3;
+}
+
+.middle-container {
+  margin: 50px 0;
+}
+
+.bottom-container {
+  background-color: #95e1d3;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.mountain{
+  margin-bottom: 0;
+}
+.heading {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.Programming{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.WebDevelopement{
+  width: 25%;
+  float: right;
+}
+.contactparagraph{
+  width: 40%;
+  margin: 10px auto 60PX;
+}
+.footer-link{
+  margin: 0 30px;
+}
+.btn{
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+  color: white;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
